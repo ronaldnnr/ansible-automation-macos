@@ -1,6 +1,6 @@
 #!/bin/bash
 
-APP_NAME="ansible-automation-programs-macos"
+APP_NAME="ansible-automation-macos"
 APP_DIR="/tmp/ansible"
 REPO_DIR="$APP_DIR/$APP_NAME"
 REPO_URL="https://github.com/ronaldnnr/ansible-automation-macos"
