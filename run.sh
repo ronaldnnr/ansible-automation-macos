@@ -1,9 +1,9 @@
 #!/bin/bash
 
-APP_NAME="ansible-automation-programs"
+APP_NAME="ansible-automation-programs-macos"
 APP_DIR="/tmp/ansible"
 REPO_DIR="$APP_DIR/$APP_NAME"
-REPO_URL="https://github.com/ronaldnnr/ansible-automation-programs"
+REPO_URL="https://github.com/ronaldnnr/ansible-automation-macos"
 
 print_version() {
   VERSION=$(sw_vers -productVersion)
