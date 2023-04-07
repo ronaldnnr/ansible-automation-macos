@@ -24,6 +24,7 @@
   homebrew:
     name: unzip
     state: present
+  become: no
 
 - name: Terraform - Unzip.
   become: yes

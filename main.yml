@@ -3,7 +3,7 @@
   become: yes
   vars:
     terraform_down_dir: "/tmp/terraform"
-    terraform_version: 1.4.4
+    terraform_version: 1.2.6
     terraform_url_down: "https://releases.hashicorp.com/terraform/{{ terraform_version }}/terraform_{{ terraform_version }}_linux_amd64.zip"
     terraform_install_directory: /usr/local/bin/
     terraform_name: terraform_{{ terraform_version }}_linux_amd64.zip
