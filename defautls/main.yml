@@ -1,0 +1,10 @@
+# Global
+users: []
+usuario:
+distribution: focal
+
+# Terraform
+terraform_version: 1.4.4
+terraform_url_down: "https://releases.hashicorp.com/terraform/{{ terraform_version }}/terraform_{{ terraform_version }}_linux_amd64.zip"
+terraform_install_directory: /usr/local/bin/
+terraform_down_dir: /tmp/terraform

@@ -1,0 +1,3 @@
+---
+# Environment MacOs
+- include_tasks: terraform.yml

@@ -1,0 +1,1 @@
+terraform_name: terraform_{{ terraform_version }}_linux_amd64.zip
