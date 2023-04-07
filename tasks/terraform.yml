@@ -21,10 +21,10 @@
     dest: "{{ terraform_install_directory }}"
 
 - name: Install unzip
+  become: no
   homebrew:
     name: unzip
     state: present
-  become: no
 
 - name: Terraform - Unzip.
   become: yes
